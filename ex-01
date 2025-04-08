@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <conio.h>
+void main (){
+    int n1,n2,n3;
+    printf("Digite sua 1 nota:\n");
+    scanf("%d",&n1);
+    printf("Digite sua 2 nota:\n");
+    scanf("%d",&n2);
+    printf("Digite sua 3 nota:\n");
+    scanf("%d",&n3);
+
+
+     float media = (float)(n1+n2+n3)/3;
+    printf("A media aritmetica dos tres valores e: %.1f",media);
+getch();
+    
+
+}
