@@ -20,6 +20,7 @@ void main(){
     media = soma / (p1+p2+p3);
     printf("A média ponderada das notas %.1f, %.1f, %.1f,"
          " com os respectivos pesos: %.1f, %.1f, %.1f, é: %.1f",n1,n2,n3,p1,p2,p3,media);
+getch();
 
         
 
