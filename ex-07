@@ -4,7 +4,6 @@
 
 void main()
 {
-  enable_utf8();
   float base,altura,area;
   printf ("Escreva o valor da base do seu triângulo (m): \n");
   scanf("%f",&base);
